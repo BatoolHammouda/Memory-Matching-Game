@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".playingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/card1"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:text="First Card" />
+
+        <TextView
+            android:id="@+id/card2"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:text="Second Card" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="8dp">
+
+        <Button
+            android:id="@+id/A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#a6767c "
+            android:text="A"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginEnd="4dp"
+            android:tag="1"/>
+
+        <Button
+            android:id="@+id/B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#a6767c "
+            android:text="B"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginEnd="4dp"
+            android:tag="6"/>
+
+        <Button
+            android:id="@+id/C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#a6767c "
+            android:text="C"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginEnd="4dp"
+            android:tag="6"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="8dp">
+
+        <Button
+            android:id="@+id/D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#a6767c "
+            android:text="D"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginEnd="4dp"
+            android:tag="1"/>
+
+        <Button
+            android:id="@+id/E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#a6767c "
+            android:text="E"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginEnd="4dp"
+            android:tag="2"/>
+
+        <Button
+            android:id="@+id/F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#a6767c "
+            android:text="F"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginEnd="4dp"
+            android:tag="2"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/turn"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:text="Turn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/win"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:text="who Is The WINNER?" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#a6767c "
+            android:text="Restart The Game"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    </LinearLayout>
+
+</LinearLayout>
